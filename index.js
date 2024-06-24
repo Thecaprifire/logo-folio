@@ -88,7 +88,11 @@ promptUser().then((answers) => {
   const svgContent = shape.render();
 
   // Write the SVG content to a file named "Logo.svg"
-  fs.writeFile("Logo.svg", svgContent, (err) =>
-    err ? console.error(err) : console.log("Generated logo.svg")
-  );
+  fs.writeFile("Logo.svg", svgContent, (err) => {
+    if (err) {
+      console.error(err);
+    } else {
+      console.log("Generated logo.svg"); // Print message upon successful file creation
+    }
+  });
 });
