@@ -1,6 +1,21 @@
 {
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "A powerful and easy-to-use SVG logo maker that lets you create, customize, and export stunning vector logos for your projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
   "dependencies": {
-    "inquirer": "^8.2.4",
-    "jest": "^29.7.0"
-  }
+    "inquirer": "8.2.4"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": []
 }
