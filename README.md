@@ -72,7 +72,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 
 ## Installation Process
-1. Clone the repository: [Thomas' Object Oriented Programming SVG Logo Maker](https://thomascalle.github.io/Thomas-Object-Oriented-Programming-SVG-Logo-Maker/)
+1. Clone the repository: [Logo Folio](https://github.com/Thecaprifire/logo-folio)
 2. Install the following: 
 - Node.JS [Version 20.14.0](https://nodejs.org/en/blog/release/v20.14.0/)
 - Jest [Version 24.9.0](https://www.npmjs.com/package/jest)
